@@ -23,7 +23,7 @@ export default function WRAPProposalGeneratorProduct() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wrap-proposal-generator.vercel.app"
+                href="https://wrap.metropointtech.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition text-center"
@@ -207,7 +207,7 @@ export default function WRAPProposalGeneratorProduct() {
             Free to use. No sign-up required. Export to Word instantly.
           </p>
           <a
-            href="https://wrap-proposal-generator.vercel.app"
+            href="https://wrap.metropointtech.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-accent hover:bg-neutral-lighter px-8 py-4 rounded-lg text-lg font-semibold transition"
