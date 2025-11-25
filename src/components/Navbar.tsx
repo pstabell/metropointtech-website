@@ -24,11 +24,11 @@ export default function Navbar() {
             <Link href="/" className="text-primary hover:text-primary transition">
               Home
             </Link>
-            <Link href="/products/ams" className="text-primary hover:text-primary transition">
-              AMS Platform
+            <Link href="/#products" className="text-primary hover:text-primary transition">
+              Products
             </Link>
-            <Link href="/products/commission-tracker" className="text-primary hover:text-primary transition">
-              Commission Tracker
+            <Link href="/services" className="text-primary hover:text-primary transition">
+              Services
             </Link>
             <Link href="/about" className="text-primary hover:text-primary transition">
               About
@@ -65,11 +65,11 @@ export default function Navbar() {
             <Link href="/" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
               Home
             </Link>
-            <Link href="/products/ams" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
-              AMS Platform
+            <Link href="/#products" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
+              Products
             </Link>
-            <Link href="/products/commission-tracker" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
-              Commission Tracker
+            <Link href="/services" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
+              Services
             </Link>
             <Link href="/about" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
               About
