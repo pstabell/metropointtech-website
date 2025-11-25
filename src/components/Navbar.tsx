@@ -19,19 +19,19 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-neutral hover:text-primary transition">
+            <Link href="/" className="text-primary hover:text-primary transition">
               Home
             </Link>
-            <Link href="/products/ams" className="text-neutral hover:text-primary transition">
+            <Link href="/products/ams" className="text-primary hover:text-primary transition">
               AMS Platform
             </Link>
-            <Link href="/products/commission-tracker" className="text-neutral hover:text-primary transition">
+            <Link href="/products/commission-tracker" className="text-primary hover:text-primary transition">
               Commission Tracker
             </Link>
-            <Link href="/about" className="text-neutral hover:text-primary transition">
+            <Link href="/about" className="text-primary hover:text-primary transition">
               About
             </Link>
-            <Link href="/contact" className="text-neutral hover:text-primary transition">
+            <Link href="/contact" className="text-primary hover:text-primary transition">
               Contact
             </Link>
             <Link
@@ -45,7 +45,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-lg text-neutral hover:bg-neutral-lighter transition"
+            className="md:hidden p-2 rounded-lg text-primary hover:bg-neutral-lighter transition"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isOpen ? (
@@ -60,19 +60,19 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden pb-4 space-y-2">
-            <Link href="/" className="block px-4 py-2 text-neutral hover:bg-neutral-lighter rounded transition">
+            <Link href="/" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
               Home
             </Link>
-            <Link href="/products/ams" className="block px-4 py-2 text-neutral hover:bg-neutral-lighter rounded transition">
+            <Link href="/products/ams" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
               AMS Platform
             </Link>
-            <Link href="/products/commission-tracker" className="block px-4 py-2 text-neutral hover:bg-neutral-lighter rounded transition">
+            <Link href="/products/commission-tracker" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
               Commission Tracker
             </Link>
-            <Link href="/about" className="block px-4 py-2 text-neutral hover:bg-neutral-lighter rounded transition">
+            <Link href="/about" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
               About
             </Link>
-            <Link href="/contact" className="block px-4 py-2 text-neutral hover:bg-neutral-lighter rounded transition">
+            <Link href="/contact" className="block px-4 py-2 text-primary hover:bg-neutral-lighter rounded transition">
               Contact
             </Link>
             <Link
