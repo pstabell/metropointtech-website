@@ -14,8 +14,8 @@ export default function ProductShowcase() {
         'Commission splits & chargeback handling',
         'Multi-location support',
       ],
-      pricing: '$299-$999/month',
-      setupFee: '$2,500-$10,000 setup',
+      pricing: 'Contact for Pricing',
+      setupFee: 'Custom setup included',
       link: '/products/ams',
       cta: 'Request Demo',
       highlight: true,
@@ -32,8 +32,8 @@ export default function ProductShowcase() {
         'Revenue ledger & reports',
         'Upgrade to Agency Mode as you grow',
       ],
-      pricing: '$19.99/month',
-      setupFee: '14-day free trial',
+      pricing: 'Start Free Trial',
+      setupFee: 'No credit card required',
       link: '/products/commission-tracker',
       cta: 'Start Free Trial',
       highlight: false,
@@ -50,7 +50,7 @@ export default function ProductShowcase() {
         'Unified timeline for all notes',
         'ACORD forms generation',
       ],
-      pricing: '$49-$99/month',
+      pricing: 'Coming Soon',
       setupFee: 'Bundled with Commission Tracker',
       link: '/contact',
       cta: 'Join Waitlist',
@@ -58,20 +58,20 @@ export default function ProductShowcase() {
     },
     {
       name: 'WRAP Proposal Generator',
-      subtitle: 'Launching December 2025',
-      description: 'Create professional high net-worth insurance proposals in minutes. Perfect for wrapping multiple policies with competitive analysis.',
+      subtitle: 'For High-Net-Worth Agents',
+      description: 'Create professional Wealth Risk Analysis & Protection proposals in minutes. Beautiful Word documents with your agency branding.',
       icon: '📊',
       features: [
-        'Professional PDF proposals',
-        'Multi-policy comparisons',
-        'Automatic premium calculations',
-        'Current vs. proposed carrier comparison',
-        'Supports all policy types',
+        'Professional Word document output',
+        '10 coverage types supported',
+        'Up to 4 agents with photos',
+        'Agency logo and branding',
+        'Automatic savings calculations',
       ],
-      pricing: '$29/month',
-      setupFee: 'Standalone or bundled',
-      link: '/contact',
-      cta: 'Join Waitlist',
+      pricing: 'Free to Use',
+      setupFee: 'No sign-up required',
+      link: '/products/wrap-proposal-generator',
+      cta: 'Try It Now',
       highlight: false,
     },
   ]
@@ -80,10 +80,10 @@ export default function ProductShowcase() {
     <section className="py-16 md:py-24 bg-neutral-lighter">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-neutral mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
             Our Product Suite
           </h2>
-          <p className="text-xl text-neutral-light max-w-3xl mx-auto">
+          <p className="text-xl text-primary-light max-w-3xl mx-auto">
             Choose the solution that fits your business today. Upgrade as you grow.
           </p>
         </div>
@@ -104,22 +104,22 @@ export default function ProductShowcase() {
 
               <div className="p-8 flex-grow">
                 <div className="text-5xl mb-4">{product.icon}</div>
-                <h3 className="text-2xl font-bold text-neutral mb-2">{product.name}</h3>
+                <h3 className="text-2xl font-bold text-primary mb-2">{product.name}</h3>
                 <p className="text-accent font-semibold mb-4">{product.subtitle}</p>
-                <p className="text-neutral-light mb-6">{product.description}</p>
+                <p className="text-primary-light mb-6">{product.description}</p>
 
                 <ul className="space-y-3 mb-8">
                   {product.features.map((feature, index) => (
                     <li key={index} className="flex items-start">
                       <span className="text-accent mr-2 flex-shrink-0">✓</span>
-                      <span className="text-sm text-neutral">{feature}</span>
+                      <span className="text-sm text-primary">{feature}</span>
                     </li>
                   ))}
                 </ul>
 
                 <div className="border-t border-neutral-lighter pt-6 mb-6">
-                  <div className="text-2xl font-bold text-neutral mb-1">{product.pricing}</div>
-                  <div className="text-sm text-neutral-light">{product.setupFee}</div>
+                  <div className="text-2xl font-bold text-primary mb-1">{product.pricing}</div>
+                  <div className="text-sm text-primary-light">{product.setupFee}</div>
                 </div>
               </div>
 
