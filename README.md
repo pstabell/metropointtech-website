@@ -3,7 +3,7 @@
 Official website for Metro Point Technology - Insurance software built by agents, for agents.
 
 ## 🌐 Website URL
-**MetroPointTech.com** (to be deployed)
+**www.MetroPointTech.com** (Live - hosted on Microsoft)
 
 ## 🎯 Purpose
 Showcase Metro Point Technology's insurance software products:
@@ -15,7 +15,8 @@ Showcase Metro Point Technology's insurance software products:
 - **Framework**: Next.js 14 (React)
 - **Styling**: Tailwind CSS
 - **TypeScript**: For type safety
-- **Deployment**: Vercel (recommended) or similar
+- **Deployment**: Microsoft Hosting (via GitHub)
+- **GitHub Repo**: https://github.com/pstabell/metro-point-insurance-website
 
 ## 📁 Project Structure
 ```
@@ -75,11 +76,43 @@ npm run build
 npm start
 ```
 
+## 🚀 DEPLOYMENT
+
+**IMPORTANT: To update the live website at www.MetroPointTech.com**
+
+The website is hosted on **Microsoft** and automatically deploys from GitHub.
+
+### Steps to Deploy Changes:
+
+1. **Commit your changes:**
+   ```bash
+   git add .
+   git commit -m "Your commit message"
+   ```
+
+2. **Push to GitHub:**
+   ```bash
+   git push origin master
+   ```
+
+3. **GitHub Repository:**
+   - Username: `pstabell`
+   - Repo: `metro-point-insurance-website`
+   - URL: https://github.com/pstabell/metro-point-insurance-website
+
+4. **Microsoft hosting automatically deploys** from the GitHub repo
+
+**Note:** Changes may take a few minutes to appear on the live site after pushing to GitHub.
+
 ## 🎨 Design System
 
 ### Colors
-- **Primary Blue**: `#2563eb` (from Metro Point Insurance)
-- **Accent Tan/Gold**: `#BA977B` (from Agent Commission Tracker)
+- **Primary Navy**: `#003B5C` (Navy Blue)
+- **Primary Dark**: `#002940` (Darker Navy)
+- **Primary Light**: `#8BA5B8` (Light Navy)
+- **Accent Gold**: `#D4AF37` (Gold)
+- **Accent Dark**: `#C19B2B` (Dark Gold)
+- **Accent Light**: `#E5C158` (Light Gold)
 - **Neutral Dark**: `#404040` (text)
 - **Neutral Light**: `#9C9A9A` (secondary text)
 
@@ -104,9 +137,10 @@ Consistent with existing Metro Point properties:
 4. **Bootstrap model** - Customer-funded development
 
 ### Products
-1. **AMS Platform** ($299-$999/mo) - For agencies with Mirror Architecture
-2. **Commission Tracker** ($19.99/mo) - For independent agents
-3. **CRM Lite** (Coming Soon) - Contact management
+1. **AMS Platform** - For agencies with Mirror Architecture (Contact for Pricing)
+2. **Commission Tracker** - For independent agents (Free Trial)
+3. **Agent CRM** (Launching Q1 2026) - Contact management
+4. **WRAP Proposal Generator** - Free tool at wrap.metropointtech.com
 
 ## 🔗 Related Properties
 - **Metro Point Insurance**: https://metropointinsurance.com
