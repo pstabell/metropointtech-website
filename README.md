@@ -16,7 +16,7 @@ Showcase Metro Point Technology's insurance software products:
 - **Styling**: Tailwind CSS
 - **TypeScript**: For type safety
 - **Deployment**: Microsoft Hosting (via GitHub)
-- **GitHub Repo**: https://github.com/pstabell/metro-point-insurance-website
+- **GitHub Repo**: https://github.com/pstabell/metropointtech-website
 
 ## 📁 Project Structure
 ```
@@ -97,8 +97,8 @@ The website is hosted on **Microsoft** and automatically deploys from GitHub.
 
 3. **GitHub Repository:**
    - Username: `pstabell`
-   - Repo: `metro-point-insurance-website`
-   - URL: https://github.com/pstabell/metro-point-insurance-website
+   - Repo: `metropointtech-website`
+   - URL: https://github.com/pstabell/metropointtech-website
 
 4. **Microsoft hosting automatically deploys** from the GitHub repo
 
