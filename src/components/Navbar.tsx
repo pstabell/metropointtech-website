@@ -12,9 +12,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="text-2xl font-bold text-primary">
-              Metro Point <span className="text-accent">Technology</span>
-            </div>
+            <img
+              src="/logo.svg"
+              alt="Metro Point Technology"
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
