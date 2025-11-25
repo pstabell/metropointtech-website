@@ -71,8 +71,8 @@
     <line x1="25" y1="40" x2="25" y2="65" stroke="#8BA5B8" stroke-width="0.3"/>
     <line x1="37" y1="40" x2="37" y2="65" stroke="#8BA5B8" stroke-width="0.3"/>
     <circle cx="31" cy="45" r="1.5" fill="#D4AF37" class="light1"/>
-    <circle cx="31" cy="52" r="1.5" fill="#8BA5B8" class="light2"/>
-    <circle cx="31" cy="59" r="1.5" fill="#8BA5B8" class="light3"/>
+    <circle cx="31" cy="52" r="1.5" fill="#D4AF37" class="light2"/>
+    <circle cx="31" cy="59" r="1.5" fill="#D4AF37" class="light3"/>
   </g>
 
   <!-- Center cube (taller) -->
@@ -81,8 +81,8 @@
     <line x1="53" y1="30" x2="53" y2="65" stroke="#8BA5B8" stroke-width="0.3"/>
     <line x1="65" y1="30" x2="65" y2="65" stroke="#8BA5B8" stroke-width="0.3"/>
     <circle cx="59" cy="35" r="1.5" fill="#D4AF37" class="light4"/>
-    <circle cx="59" cy="42" r="1.5" fill="#8BA5B8" class="light5"/>
-    <circle cx="59" cy="49" r="1.5" fill="#8BA5B8" class="light6"/>
+    <circle cx="59" cy="42" r="1.5" fill="#D4AF37" class="light5"/>
+    <circle cx="59" cy="49" r="1.5" fill="#D4AF37" class="light6"/>
     <circle cx="59" cy="56" r="1.5" fill="#D4AF37" class="light7"/>
   </g>
 
@@ -91,9 +91,9 @@
     <rect x="76" y="30" width="22" height="40" fill="#003B5C" stroke="#8BA5B8" stroke-width="0.5"/>
     <line x1="81" y1="35" x2="81" y2="65" stroke="#8BA5B8" stroke-width="0.3"/>
     <line x1="93" y1="35" x2="93" y2="65" stroke="#8BA5B8" stroke-width="0.3"/>
-    <circle cx="87" cy="40" r="1.5" fill="#8BA5B8" class="light8"/>
+    <circle cx="87" cy="40" r="1.5" fill="#D4AF37" class="light8"/>
     <circle cx="87" cy="47" r="1.5" fill="#D4AF37" class="light9"/>
-    <circle cx="87" cy="54" r="1.5" fill="#8BA5B8" class="light1"/>
+    <circle cx="87" cy="54" r="1.5" fill="#D4AF37" class="light1"/>
   </g>
 
   <!-- Golden swoosh (matching Insurance logo style) -->
