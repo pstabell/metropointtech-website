@@ -47,7 +47,7 @@ export default function AMSProduct() {
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
                 What is Mirror Architecture?
               </h2>
-              <p className="text-xl text-primary-light">
+              <p className="text-xl text-primary">
                 Like a two-sided mirror - agents see their isolated view, admin sees through to everything, but the data is identical.
               </p>
             </div>
@@ -56,7 +56,7 @@ export default function AMSProduct() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-xl font-bold mb-4 text-primary">👁️ Agent View</h3>
-                  <ul className="space-y-3 text-primary-light">
+                  <ul className="space-y-3 text-primary">
                     <li>✓ Sees only their commissions</li>
                     <li>✓ 3 statuses: Due → Reconciled → Paid</li>
                     <li>✓ Updates appear INSTANTLY</li>
@@ -65,7 +65,7 @@ export default function AMSProduct() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-4 text-primary">🔍 Admin View</h3>
-                  <ul className="space-y-3 text-primary-light">
+                  <ul className="space-y-3 text-primary">
                     <li>✓ Sees all agents</li>
                     <li>✓ Reconciles carrier statements</li>
                     <li>✓ Agents update in real-time</li>
@@ -94,7 +94,7 @@ export default function AMSProduct() {
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
               3-Status Commission Tracking
             </h2>
-            <p className="text-xl text-primary-light">
+            <p className="text-xl text-primary">
               Clear visibility from policy entry to payment
             </p>
           </div>
@@ -103,7 +103,7 @@ export default function AMSProduct() {
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <div className="text-4xl mb-4">📝</div>
               <h3 className="text-2xl font-bold mb-3 text-primary">1. Due (Unreconciled)</h3>
-              <p className="text-primary-light mb-4">
+              <p className="text-primary mb-4">
                 Agent enters policy, commission shows as "Due". Waiting for carrier statement to arrive.
               </p>
               <div className="text-sm text-accent font-semibold">
@@ -114,7 +114,7 @@ export default function AMSProduct() {
             <div className="bg-white rounded-xl p-8 shadow-lg ring-2 ring-accent">
               <div className="text-4xl mb-4">✅</div>
               <h3 className="text-2xl font-bold mb-3 text-primary">2. Reconciled</h3>
-              <p className="text-primary-light mb-4">
+              <p className="text-primary mb-4">
                 Admin matches carrier statement → Agent sees update INSTANTLY. Commission amount confirmed.
               </p>
               <div className="text-sm text-accent font-semibold">
@@ -125,7 +125,7 @@ export default function AMSProduct() {
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-2xl font-bold mb-3 text-primary">3. Paid</h3>
-              <p className="text-primary-light mb-4">
+              <p className="text-primary mb-4">
                 Admin marks as paid → Appears in agent's commission statement. Agent balance updated.
               </p>
               <div className="text-sm text-accent font-semibold">
@@ -143,7 +143,7 @@ export default function AMSProduct() {
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
               4-Role Hierarchy
             </h2>
-            <p className="text-xl text-primary-light">
+            <p className="text-xl text-primary">
               Perfect access control for agencies of all sizes
             </p>
           </div>
@@ -152,7 +152,7 @@ export default function AMSProduct() {
             <div className="bg-neutral-lighter rounded-xl p-6">
               <div className="text-3xl mb-3">👨‍💼</div>
               <h3 className="text-xl font-bold mb-2 text-primary">Admin</h3>
-              <ul className="text-sm text-primary-light space-y-2">
+              <ul className="text-sm text-primary space-y-2">
                 <li>• Reconciles statements</li>
                 <li>• Sees all agents</li>
                 <li>• Overrides locks</li>
@@ -163,7 +163,7 @@ export default function AMSProduct() {
             <div className="bg-neutral-lighter rounded-xl p-6">
               <div className="text-3xl mb-3">👔</div>
               <h3 className="text-xl font-bold mb-2 text-primary">Manager</h3>
-              <ul className="text-sm text-primary-light space-y-2">
+              <ul className="text-sm text-primary space-y-2">
                 <li>• Locks transactions</li>
                 <li>• Sees their team</li>
                 <li>• Cannot reconcile</li>
@@ -174,7 +174,7 @@ export default function AMSProduct() {
             <div className="bg-neutral-lighter rounded-xl p-6">
               <div className="text-3xl mb-3">👤</div>
               <h3 className="text-xl font-bold mb-2 text-primary">Agent</h3>
-              <ul className="text-sm text-primary-light space-y-2">
+              <ul className="text-sm text-primary space-y-2">
                 <li>• Sees own commissions</li>
                 <li>• Tracks Due/Reconciled/Paid</li>
                 <li>• Enters policies</li>
@@ -185,7 +185,7 @@ export default function AMSProduct() {
             <div className="bg-neutral-lighter rounded-xl p-6">
               <div className="text-3xl mb-3">👑</div>
               <h3 className="text-xl font-bold mb-2 text-primary">Owner</h3>
-              <ul className="text-sm text-primary-light space-y-2">
+              <ul className="text-sm text-primary space-y-2">
                 <li>• Read-only dashboard</li>
                 <li>• Oversight view</li>
                 <li>• Agency metrics</li>
@@ -208,28 +208,28 @@ export default function AMSProduct() {
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="bg-white rounded-xl p-8">
               <h3 className="text-xl font-bold mb-4 text-primary">📊 Commission Splits</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Agency keeps X%, Agent gets Y%. Different splits for new business vs renewals. Auto-calculated during reconciliation.
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-8">
               <h3 className="text-xl font-bold mb-4 text-primary">🔒 Transaction Locking</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Managers lock verified transactions. Admin can override. Prevents accidental changes during reconciliation.
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-8">
               <h3 className="text-xl font-bold mb-4 text-primary">⚡ Chargeback Handling</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Carrier issues chargeback → Auto-deducts from agent balance. Next payment calculates: New - Chargeback Balance.
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-8">
               <h3 className="text-xl font-bold mb-4 text-primary">🏢 Multi-Location</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Multiple office locations. Manager oversight per location. Policy reassignment between agents. Team performance tracking.
               </p>
             </div>
@@ -244,7 +244,7 @@ export default function AMSProduct() {
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
               Pricing That Scales With You
             </h2>
-            <p className="text-xl text-primary-light">
+            <p className="text-xl text-primary">
               Natural growth from solo agent to enterprise agency
             </p>
           </div>
@@ -253,11 +253,11 @@ export default function AMSProduct() {
             <div className="bg-neutral-lighter rounded-xl p-6 flex flex-col md:flex-row justify-between items-center">
               <div>
                 <h3 className="text-xl font-bold text-primary">Starter Agency</h3>
-                <p className="text-primary-light">2-5 agents</p>
+                <p className="text-primary">2-5 agents</p>
               </div>
               <div className="text-right">
                 <div className="text-2xl font-bold text-primary">$299/month</div>
-                <div className="text-sm text-primary-light">+ $2,500 setup</div>
+                <div className="text-sm text-primary">+ $2,500 setup</div>
               </div>
             </div>
 
@@ -265,28 +265,28 @@ export default function AMSProduct() {
               <div>
                 <div className="text-accent font-semibold text-sm mb-1">MOST POPULAR</div>
                 <h3 className="text-xl font-bold text-primary">Pro Agency</h3>
-                <p className="text-primary-light">6-20 agents</p>
+                <p className="text-primary">6-20 agents</p>
               </div>
               <div className="text-right">
                 <div className="text-2xl font-bold text-primary">$599/month</div>
-                <div className="text-sm text-primary-light">+ $5,000 setup</div>
+                <div className="text-sm text-primary">+ $5,000 setup</div>
               </div>
             </div>
 
             <div className="bg-neutral-lighter rounded-xl p-6 flex flex-col md:flex-row justify-between items-center">
               <div>
                 <h3 className="text-xl font-bold text-primary">Enterprise</h3>
-                <p className="text-primary-light">20+ agents, multiple locations</p>
+                <p className="text-primary">20+ agents, multiple locations</p>
               </div>
               <div className="text-right">
                 <div className="text-2xl font-bold text-primary">$999/month</div>
-                <div className="text-sm text-primary-light">+ $10,000 setup</div>
+                <div className="text-sm text-primary">+ $10,000 setup</div>
               </div>
             </div>
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-primary-light mb-6">
+            <p className="text-primary mb-6">
               <strong>Setup fees fund integration development:</strong> Applied Epic ($5,000), QuickBooks ($3,000), custom integrations quoted based on complexity
             </p>
             <Link

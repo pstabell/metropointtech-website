@@ -106,7 +106,7 @@ export default function CommissionTrackerProduct() {
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
               Features Built by an Agent, for Agents
             </h2>
-            <p className="text-xl text-primary-light">
+            <p className="text-xl text-primary">
               Every feature solves a real problem we've encountered
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function CommissionTrackerProduct() {
             <div className="bg-white rounded-xl p-8">
               <div className="text-4xl mb-4">📋</div>
               <h3 className="text-xl font-bold mb-3 text-primary">Policy Management</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Track all your policies in one place. NEW, RWL, END, CAN - all transaction types supported with automated calculations.
               </p>
             </div>
@@ -123,7 +123,7 @@ export default function CommissionTrackerProduct() {
             <div className="bg-white rounded-xl p-8">
               <div className="text-4xl mb-4">🔄</div>
               <h3 className="text-xl font-bold mb-3 text-primary">Automated Reconciliation</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Import carrier statements, auto-match to policies, identify discrepancies. No more manual spreadsheet nightmares.
               </p>
             </div>
@@ -131,7 +131,7 @@ export default function CommissionTrackerProduct() {
             <div className="bg-white rounded-xl p-8">
               <div className="text-4xl mb-4">📊</div>
               <h3 className="text-xl font-bold mb-3 text-primary">Revenue Reports</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Policy Revenue Ledger with custom column selection. Export to CSV and Excel with subtotals. Professional reports in seconds.
               </p>
             </div>
@@ -139,7 +139,7 @@ export default function CommissionTrackerProduct() {
             <div className="bg-white rounded-xl p-8">
               <div className="text-4xl mb-4">🔍</div>
               <h3 className="text-xl font-bold mb-3 text-primary">Search & Filter</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Find any policy instantly. Filter by customer, carrier, MGA, policy type, date range. Advanced search that actually works.
               </p>
             </div>
@@ -147,7 +147,7 @@ export default function CommissionTrackerProduct() {
             <div className="bg-white rounded-xl p-8">
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-xl font-bold mb-3 text-primary">Commission Rules</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Policy type-specific commission rates. Multi-level rule matching. Automatic rate selection. Real-time commission calculation.
               </p>
             </div>
@@ -155,7 +155,7 @@ export default function CommissionTrackerProduct() {
             <div className="bg-white rounded-xl p-8">
               <div className="text-4xl mb-4">🔒</div>
               <h3 className="text-xl font-bold mb-3 text-primary">Bank-Level Security</h3>
-              <p className="text-primary-light">
+              <p className="text-primary">
                 Secure cloud database (Supabase). Automatic backups. SOC 2 compliant infrastructure. Your data is safe.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function CommissionTrackerProduct() {
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
             Grows With Your Business
           </h2>
-          <p className="text-xl text-primary-light mb-12">
+          <p className="text-xl text-primary mb-12">
             Start as a solo agent. Upgrade to Agency Mode when you hire your first agent.
           </p>
 
@@ -210,27 +210,27 @@ export default function CommissionTrackerProduct() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-8">
-              <p className="text-primary-light mb-4 italic">
+              <p className="text-primary mb-4 italic">
                 "I recovered $3,200 in missing commissions in my first month. The auto-matching feature is incredible."
               </p>
               <div className="font-semibold text-primary">Sarah M.</div>
-              <div className="text-sm text-primary-light">Independent Agent, FL</div>
+              <div className="text-sm text-primary">Independent Agent, FL</div>
             </div>
 
             <div className="bg-white rounded-xl p-8">
-              <p className="text-primary-light mb-4 italic">
+              <p className="text-primary mb-4 italic">
                 "Reconciliation used to take me 8 hours. Now it takes 30 minutes. This tool paid for itself immediately."
               </p>
               <div className="font-semibold text-primary">Mike T.</div>
-              <div className="text-sm text-primary-light">Agency Owner, TX</div>
+              <div className="text-sm text-primary">Agency Owner, TX</div>
             </div>
 
             <div className="bg-white rounded-xl p-8">
-              <p className="text-primary-light mb-4 italic">
+              <p className="text-primary mb-4 italic">
                 "Finally, a tool built by someone who actually understands the insurance business. Game changer."
               </p>
               <div className="font-semibold text-primary">Jennifer L.</div>
-              <div className="text-sm text-primary-light">Independent Agent, CA</div>
+              <div className="text-sm text-primary">Independent Agent, CA</div>
             </div>
           </div>
         </div>

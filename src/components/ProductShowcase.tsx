@@ -83,7 +83,7 @@ export default function ProductShowcase() {
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
             Our Product Suite
           </h2>
-          <p className="text-xl text-primary-light max-w-3xl mx-auto">
+          <p className="text-xl text-primary max-w-3xl mx-auto">
             Choose the solution that fits your business today. Upgrade as you grow.
           </p>
         </div>
@@ -106,7 +106,7 @@ export default function ProductShowcase() {
                 <div className="text-5xl mb-4">{product.icon}</div>
                 <h3 className="text-2xl font-bold text-primary mb-2">{product.name}</h3>
                 <p className="text-accent font-semibold mb-4">{product.subtitle}</p>
-                <p className="text-primary-light mb-6">{product.description}</p>
+                <p className="text-primary mb-6">{product.description}</p>
 
                 <ul className="space-y-3 mb-8">
                   {product.features.map((feature, index) => (
@@ -119,7 +119,7 @@ export default function ProductShowcase() {
 
                 <div className="border-t border-neutral-lighter pt-6 mb-6">
                   <div className="text-2xl font-bold text-primary mb-1">{product.pricing}</div>
-                  <div className="text-sm text-primary-light">{product.setupFee}</div>
+                  <div className="text-sm text-primary">{product.setupFee}</div>
                 </div>
               </div>
 

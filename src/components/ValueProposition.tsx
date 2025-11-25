@@ -6,7 +6,7 @@ export default function ValueProposition() {
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
             Why Metro Point Technology?
           </h2>
-          <p className="text-xl text-primary-light max-w-3xl mx-auto">
+          <p className="text-xl text-primary max-w-3xl mx-auto">
             We're not just developers who learned about insurance.
             We're insurance professionals who learned to code.
           </p>
@@ -30,7 +30,7 @@ export default function ValueProposition() {
           <div className="bg-neutral-lighter rounded-xl p-8">
             <div className="text-4xl mb-4">✅</div>
             <h3 className="text-2xl font-bold mb-3 text-primary">Battle-Tested Solutions</h3>
-            <p className="text-primary-light mb-4">
+            <p className="text-primary mb-4">
               Every feature solves a real problem we've encountered. No theoretical features,
               no bloat, just practical tools that save time and catch errors.
             </p>
@@ -43,7 +43,7 @@ export default function ValueProposition() {
           <div className="bg-neutral-lighter rounded-xl p-8">
             <div className="text-4xl mb-4">🗣️</div>
             <h3 className="text-2xl font-bold mb-3 text-primary">Community-Driven Roadmap</h3>
-            <p className="text-primary-light mb-4">
+            <p className="text-primary mb-4">
               We listen to agent needs on social media and build features everyone can use.
               No custom development services - we stay focused on building great products.
             </p>
@@ -56,7 +56,7 @@ export default function ValueProposition() {
           <div className="bg-neutral-lighter rounded-xl p-8">
             <div className="text-4xl mb-4">💰</div>
             <h3 className="text-2xl font-bold mb-3 text-primary">Customer-Funded Development</h3>
-            <p className="text-primary-light mb-4">
+            <p className="text-primary mb-4">
               Setup fees fund integration development. We build what you actually need,
               when you need it - no speculative features that never get used.
             </p>
