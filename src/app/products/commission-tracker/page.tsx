@@ -10,10 +10,10 @@ export default function CommissionTrackerProduct() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-accent to-accent-dark text-white py-20">
+      <section className="bg-gradient-to-br from-primary to-primary-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="text-accent-light font-semibold mb-4">FOR INDEPENDENT AGENTS</div>
+            <div className="text-accent font-semibold mb-4">FOR INDEPENDENT AGENTS</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Agent Commission Tracker
             </h1>
@@ -26,13 +26,13 @@ export default function CommissionTrackerProduct() {
                 href="https://www.agentcommissiontracker.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-accent hover:bg-neutral-lighter px-8 py-4 rounded-lg text-lg font-semibold transition text-center"
+                className="bg-accent text-white hover:bg-accent-dark px-8 py-4 rounded-lg text-lg font-semibold transition text-center"
               >
                 Start Free 14-Day Trial
               </a>
               <Link
                 href="#features"
-                className="bg-accent-dark/50 hover:bg-accent-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition text-center"
+                className="bg-white text-primary hover:bg-neutral-lighter px-8 py-4 rounded-lg text-lg font-semibold transition text-center"
               >
                 See Features
               </Link>
@@ -49,7 +49,7 @@ export default function CommissionTrackerProduct() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-accent mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
                 The Problem
               </h2>
               <ul className="space-y-4">
@@ -73,7 +73,7 @@ export default function CommissionTrackerProduct() {
             </div>
 
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-accent mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
                 The Solution
               </h2>
               <ul className="space-y-4">
@@ -237,7 +237,7 @@ export default function CommissionTrackerProduct() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 md:py-24 bg-gradient-to-r from-accent to-accent-dark text-white">
+      <section className="py-16 md:py-24 bg-gradient-to-r from-primary to-primary-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Start Your Free 14-Day Trial
@@ -249,7 +249,7 @@ export default function CommissionTrackerProduct() {
             href="https://www.agentcommissiontracker.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-white text-accent hover:bg-neutral-lighter px-8 py-4 rounded-lg text-lg font-semibold transition"
+            className="inline-block bg-accent text-white hover:bg-accent-dark px-8 py-4 rounded-lg text-lg font-semibold transition"
           >
             Get Started Free
           </a>

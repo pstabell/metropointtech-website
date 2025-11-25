@@ -19,6 +19,7 @@ export default function ProductShowcase() {
       link: '/products/ams',
       cta: 'Request Demo',
       highlight: true,
+      borderColor: 'accent',
     },
     {
       name: 'Commission Tracker',
@@ -37,6 +38,7 @@ export default function ProductShowcase() {
       link: '/products/commission-tracker',
       cta: 'Start Free Trial',
       highlight: false,
+      borderColor: 'primary',
     },
     {
       name: 'Agent CRM',
@@ -55,6 +57,7 @@ export default function ProductShowcase() {
       link: '/contact',
       cta: 'Join Waitlist',
       highlight: false,
+      borderColor: 'primary',
     },
     {
       name: 'WRAP Proposal Generator',
@@ -73,6 +76,7 @@ export default function ProductShowcase() {
       link: '/products/wrap-proposal-generator',
       cta: 'Try It Now',
       highlight: false,
+      borderColor: 'accent',
     },
   ]
 
@@ -93,7 +97,8 @@ export default function ProductShowcase() {
             <div
               key={product.name}
               className={`bg-white rounded-xl shadow-lg overflow-hidden flex flex-col ${
-                product.highlight ? 'ring-2 ring-accent transform lg:scale-105' : ''
+                product.borderColor === 'accent' ? 'ring-2 ring-accent transform lg:scale-105' :
+                product.borderColor === 'primary' ? 'ring-2 ring-primary' : ''
               }`}
             >
               {product.highlight && (
