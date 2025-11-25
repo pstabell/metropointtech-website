@@ -13,7 +13,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <img
-              src="/logo.svg"
+              src="/logo-animated.svg"
               alt="Metro Point Technology, LLC"
               className="h-24 w-auto"
             />
