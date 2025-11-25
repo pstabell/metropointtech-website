@@ -9,13 +9,13 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-28">
+        <div className="flex justify-between items-center h-36">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <img
               src="/logo-animated.svg"
               alt="Metro Point Technology, LLC"
-              className="h-24 w-auto"
+              className="h-30 w-auto"
             />
           </Link>
 
