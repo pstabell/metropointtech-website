@@ -181,8 +181,8 @@ export default function Contact() {
                 <div className="bg-neutral-lighter rounded-xl p-6">
                   <div className="text-3xl mb-3">📧</div>
                   <h3 className="font-semibold text-neutral mb-2">Email</h3>
-                  <a href="mailto:contact@metropointtech.com" className="text-primary hover:text-primary-dark">
-                    contact@metropointtech.com
+                  <a href="mailto:sales@metropointtech.com" className="text-primary hover:text-primary-dark">
+                    sales@metropointtech.com
                   </a>
                 </div>
 
