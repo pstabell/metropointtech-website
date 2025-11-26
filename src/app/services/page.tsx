@@ -182,23 +182,23 @@ export default function ServicesPage() {
       </section>
 
       {/* Why Work With Us */}
-      <section className="py-16 bg-gradient-to-br from-accent-light to-accent text-white">
+      <section className="py-16 bg-gradient-to-br from-accent-light to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
             Built by an Agent Who Gets It
           </h2>
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg mb-6">
-              Our founder has been running Metro Point Insurance for 30 years. He built this
+            <p className="text-lg mb-6 text-primary">
+              Our founder has been an active insurance agent for over 30 years. He built this
               technology because he was frustrated with the same disconnected systems you're
               dealing with right now.
             </p>
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-6 text-primary">
               When we talk about carrier integrations, commission tracking, renewal workflows,
               and policy management - we're not guessing. We live this every single day.
             </p>
-            <p className="text-lg font-semibold">
-              We understand insurance operations because we ARE an insurance operation.
+            <p className="text-lg font-semibold text-primary">
+              We understand insurance operations because we ARE insurance operators.
             </p>
           </div>
         </div>

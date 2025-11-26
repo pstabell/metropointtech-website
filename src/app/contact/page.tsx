@@ -119,7 +119,7 @@ export default function Contact() {
                       value={formData.company}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-neutral-lighter rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-neutral"
-                      placeholder="Metro Point Insurance"
+                      placeholder="Your Agency Name"
                     />
                   </div>
 
@@ -190,7 +190,7 @@ export default function Contact() {
                   <div className="text-3xl mb-3">🏢</div>
                   <h3 className="font-semibold text-neutral mb-2">Office</h3>
                   <p className="text-neutral-light">
-                    Metro Point Insurance Services, LLC<br />
+                    Metro Point Technology, LLC<br />
                     Cape Coral, FL
                   </p>
                 </div>
