@@ -198,12 +198,12 @@ export default function WRAPProposalGeneratorProduct() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 md:py-24 bg-gradient-to-r from-accent to-accent-dark text-white">
+      <section className="py-16 md:py-24 bg-gradient-to-r from-accent to-accent-dark">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">
             Start Creating Professional WRAP Proposals
           </h2>
-          <p className="text-xl mb-8">
+          <p className="text-xl mb-8 text-primary">
             Free to use. No sign-up required. Export to Word instantly.
           </p>
           <a
@@ -214,7 +214,7 @@ export default function WRAPProposalGeneratorProduct() {
           >
             Try It Now
           </a>
-          <p className="mt-6 text-sm">
+          <p className="mt-6 text-sm text-primary">
             Built by an insurance agent, for insurance agents
           </p>
         </div>
