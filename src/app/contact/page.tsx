@@ -73,7 +73,7 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-neutral-lighter rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-neutral"
-                      placeholder="Patrick Stabell"
+                      placeholder="John Smith"
                     />
                   </div>
 
@@ -89,7 +89,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-neutral-lighter rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-neutral"
-                      placeholder="patrick@metropointinsurance.com"
+                      placeholder="john@example.com"
                     />
                   </div>
 
@@ -104,7 +104,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-neutral-lighter rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-neutral"
-                      placeholder="(239) 600-8159"
+                      placeholder="(555) 123-4567"
                     />
                   </div>
 
