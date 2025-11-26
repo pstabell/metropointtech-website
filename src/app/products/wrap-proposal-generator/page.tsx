@@ -210,7 +210,7 @@ export default function WRAPProposalGeneratorProduct() {
             href="https://wrap.metropointtech.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-white text-accent hover:bg-neutral-lighter px-8 py-4 rounded-lg text-lg font-semibold transition"
+            className="inline-block bg-white text-primary hover:bg-neutral-lighter px-8 py-4 rounded-lg text-lg font-semibold transition"
           >
             Try It Now
           </a>
